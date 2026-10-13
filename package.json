@@ -1,0 +1,15 @@
+{
+  "name": "enzo-lopez-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portafolio personal de Enzo Lopez — Atlas de sistemas",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "check": "node scripts/check.mjs",
+    "test": "npm run check"
+  },
+  "engines": { "node": ">=20" }
+}
